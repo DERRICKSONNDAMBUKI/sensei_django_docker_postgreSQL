@@ -1,0 +1,13 @@
+version: '3.3'
+
+services:
+  web:
+    build: .
+    command: python /postgresql_project/manage.py runserver 0.0.0.0:8000
+    volumes:
+      - .:/postgresql_project
+    ports:
+      - 8000:8000
+
+# to detach for the container to work in the background
+# $ docker-compose up -d

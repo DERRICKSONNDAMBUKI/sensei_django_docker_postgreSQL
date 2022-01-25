@@ -18,3 +18,5 @@ RUN pip install pipenv && pipenv install --system
 # copy project
 
 COPY . /postgresql_project/
+
+# $ docker build .
