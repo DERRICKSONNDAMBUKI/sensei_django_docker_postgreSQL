@@ -1,1 +1,1 @@
-# sensei_django_docker_postgreSQL
+# Sensei Django Docker PostgreSQL
